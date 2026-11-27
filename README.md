@@ -21,8 +21,6 @@ Place the backbone checkpoints at:
 - LaBraM: `checkpoints/labram-base.pth`
 - CBraMod: `checkpoints/pretrained_weights.pth`
 
-Alternatively, provide a checkpoint path with `--pretrained`. Obtain the weights from the respective backbone projects; see [third-party notices](THIRD_PARTY_NOTICES.md).
-
 ## Data preparation
 
 Follow the dataset preparation instructions in [preprocessing/README.md](preprocessing/README.md). Configure the dataset directories in `dataset_config/Classification.json`, or pass `--data-root` when running an experiment. The supplied configuration contains local experiment paths that should be updated for your environment.
