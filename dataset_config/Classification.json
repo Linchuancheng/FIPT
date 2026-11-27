@@ -1,0 +1,30 @@
+{
+  "DEAP": {
+    "root": {
+      "cross": "/var/lib/docker/dataset/Emotion/DEAP/preprocessed"
+    },
+    "num_classes": 2,
+    "num_t": 4
+  },
+  "HCI": {
+    "root": {
+      "cross": "/home/24lcc/Downstream_dataset/AdaBrain-Bench-LaBraM-fusion/preprocessing/HCI"
+    },
+    "num_classes": 2,
+    "num_t": 4
+  },
+  "MER": {
+    "root": {
+      "cross": "/var/lib/docker/dataset/Emotion/Mixed Emotion Recognition/preprocessing"
+    },
+    "num_classes": 2,
+    "num_t": 4
+  },
+  "REFED": {
+    "root": {
+      "cross": "/var/lib/docker/dataset/Emotion/REFED/preprocessed/data"
+    },
+    "num_classes": 2,
+    "num_t": 1
+  }
+}

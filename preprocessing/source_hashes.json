@@ -1,0 +1,57 @@
+[
+  {
+    "source": "DEAP/deap.py",
+    "packaged": "deap/prepare.py",
+    "source_sha256": "dc69bda4bef1ca16c213660cf3841069a739cd706a7245be1a3e8a075d1034e4"
+  },
+  {
+    "source": "DEAP/norm.py",
+    "packaged": "deap/normalize.py",
+    "source_sha256": "21ad3c62f7b333b9d3d6f27cc60d31a8a641e642341ee6cd6e608f08390e1a00"
+  },
+  {
+    "source": "HCI/HCI.py",
+    "packaged": "hci/prepare.py",
+    "source_sha256": "e63941e3342b90cfe617579092798759a0545dfd30b3ac980584b9b8ab869eb0"
+  },
+  {
+    "source": "HCI/norm.py",
+    "packaged": "hci/normalize.py",
+    "source_sha256": "f91091b4f8a20770930803afd21469ff078f75966f278898048bc773b10e2a14"
+  },
+  {
+    "source": "MER/save_multimodal_data.py",
+    "packaged": "mer/prepare.py",
+    "source_sha256": "6b5301c2968a74ab1dfb23f081480f3d237d19d2ee9c2736a977c09a3639e992"
+  },
+  {
+    "source": "MER/norm_data.py",
+    "packaged": "mer/normalize.py",
+    "source_sha256": "d3d5b33dbc9ee764a68d6ce09b6bb706b08d1644d9b5ec0a814c577e6cd973c6"
+  },
+  {
+    "source": "REFED/1_process_sample.py",
+    "packaged": "refed/prepare_signals.py",
+    "source_sha256": "f369b6a3de0e7f050dccd77a7603c5b57b32e1cff8260ab10fd22be2803553ad"
+  },
+  {
+    "source": "REFED/2_concatenate.py",
+    "packaged": "refed/build_samples.py",
+    "source_sha256": "e77427103176581489734a27bbc7e6765d3624a5176aea44c44165ba2c23247c"
+  },
+  {
+    "source": "REFED/3_norm.py",
+    "packaged": "refed/normalize.py",
+    "source_sha256": "afd60178a7f268efa39c8384248b89937f8bae1aa1f41e75ff19b83b0a1160ce"
+  },
+  {
+    "source": "REFED/load_REFED.py",
+    "packaged": "refed/annotations.py",
+    "source_sha256": "56715e95e533cb1ec906746822bc4858942181380dfc3335426a0d00085bbc58"
+  },
+  {
+    "source": "REFED/test.py",
+    "packaged": "refed/plot_ratings.py",
+    "source_sha256": "b22f80e1c2d6856351d70fac772fea16451beb485f7075830889632fbef2965d"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "DEAP_normalization_and_splits": "exact",
+  "HCI_normalization_and_splits": "exact",
+  "MER_normalization_and_splits": "exact",
+  "REFED_normalization_and_splits": "exact",
+  "HCI_filter_resample": "exact; 256 Hz -> 200 Hz",
+  "DEAP_filter_resample_labels": "exact",
+  "MER_segmentation_and_windows": "exact",
+  "REFED_filter_resample_window": "exact",
+  "full_real_dataset_reprocessing": "not run",
+  "MER_synthetic_end_to_end": "passed",
+  "label_name_mapping_and_legacy_fallback": "passed",
+  "repeated_normalization_protection": "passed"
+}

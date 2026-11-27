@@ -1,0 +1,355 @@
+{
+  "deap_cbramod_arousal": {
+    "recipe": "deap_cbramod_arousal",
+    "source_folder": "DEAP/AdaBrain-Bench-CBraMod1-32-a2",
+    "dataset": "DEAP",
+    "backbone": "CBraMod",
+    "target": "arousal",
+    "label_index": 1,
+    "num_t": 4,
+    "num_channels": 36,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(10)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "deap_cbramod_valence": {
+    "recipe": "deap_cbramod_valence",
+    "source_folder": "DEAP/AdaBrain-Bench-CBraMod10-32-a2",
+    "dataset": "DEAP",
+    "backbone": "CBraMod",
+    "target": "valence",
+    "label_index": 0,
+    "num_t": 4,
+    "num_channels": 36,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(10)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "deap_labram_arousal": {
+    "recipe": "deap_labram_arousal",
+    "source_folder": "DEAP/AdaBrain-Bench-LaBraM-16-a2",
+    "dataset": "DEAP",
+    "backbone": "LaBraM",
+    "target": "arousal",
+    "label_index": 1,
+    "num_t": 4,
+    "num_channels": 36,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(5)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "deap_labram_valence": {
+    "recipe": "deap_labram_valence",
+    "source_folder": "DEAP/AdaBrain-Bench-LaBraM0-16-a2",
+    "dataset": "DEAP",
+    "backbone": "LaBraM",
+    "target": "valence",
+    "label_index": 0,
+    "num_t": 4,
+    "num_channels": 36,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(5)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "hci_cbramod_arousal": {
+    "recipe": "hci_cbramod_arousal",
+    "source_folder": "HCI/AdaBrain-Bench-CBraMod362-16-a",
+    "dataset": "HCI",
+    "backbone": "CBraMod",
+    "target": "arousal",
+    "label_index": 1,
+    "num_t": 4,
+    "num_channels": 36,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(10)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "hci_cbramod_valence": {
+    "recipe": "hci_cbramod_valence",
+    "source_folder": "HCI/AdaBrain-Bench-CBraMod3620-16-a",
+    "dataset": "HCI",
+    "backbone": "CBraMod",
+    "target": "valence",
+    "label_index": 0,
+    "num_t": 4,
+    "num_channels": 36,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(10)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "hci_labram_arousal": {
+    "recipe": "hci_labram_arousal",
+    "source_folder": "HCI/AdaBrain-Bench-LaBraM-fusion1-8-new5-a-psd6",
+    "dataset": "HCI",
+    "backbone": "LaBraM",
+    "target": "arousal",
+    "label_index": 1,
+    "num_t": 4,
+    "num_channels": 36,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(5)"
+    ],
+    "source_selection_metric": "balanced_accuracy",
+    "compatibility_fix": "Remove redundant flatten after the three-dimensional PSD output; preserve the source PSD formula."
+  },
+  "hci_labram_valence": {
+    "recipe": "hci_labram_valence",
+    "source_folder": "HCI/AdaBrain-Bench-LaBraM-fusion10-8-new5-a4",
+    "dataset": "HCI",
+    "backbone": "LaBraM",
+    "target": "valence",
+    "label_index": 0,
+    "num_t": 4,
+    "num_channels": 36,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(15)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "mer_cbramod_arousal": {
+    "recipe": "mer_cbramod_arousal",
+    "source_folder": "MER/AdaBrain-Bench-CBraMod3-4-a1",
+    "dataset": "MER",
+    "backbone": "CBraMod",
+    "target": "arousal",
+    "label_index": 1,
+    "num_t": 4,
+    "num_channels": 20,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(5)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "mer_cbramod_valence": {
+    "recipe": "mer_cbramod_valence",
+    "source_folder": "MER/AdaBrain-Bench-CBraMod30-8-a2",
+    "dataset": "MER",
+    "backbone": "CBraMod",
+    "target": "valence",
+    "label_index": 0,
+    "num_t": 4,
+    "num_channels": 20,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(5)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "mer_labram_arousal": {
+    "recipe": "mer_labram_arousal",
+    "source_folder": "MER/AdaBrain-Bench-LaBraM-fusion1-16-new3-a2",
+    "dataset": "MER",
+    "backbone": "LaBraM",
+    "target": "arousal",
+    "label_index": 1,
+    "num_t": 4,
+    "num_channels": 20,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(10)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "mer_labram_valence": {
+    "recipe": "mer_labram_valence",
+    "source_folder": "MER/AdaBrain-Bench-LaBraM-fusion10-16-new3-a2",
+    "dataset": "MER",
+    "backbone": "LaBraM",
+    "target": "valence",
+    "label_index": 0,
+    "num_t": 4,
+    "num_channels": 20,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(10)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "refed_cbramod_arousal": {
+    "recipe": "refed_cbramod_arousal",
+    "source_folder": "REFED/AdaBrain-Bench-CBraMod2-64-a",
+    "dataset": "REFED",
+    "backbone": "CBraMod",
+    "target": "arousal",
+    "label_index": 1,
+    "num_t": 1,
+    "num_channels": 166,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(5)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "refed_cbramod_valence": {
+    "recipe": "refed_cbramod_valence",
+    "source_folder": "REFED/AdaBrain-Bench-CBraMod20-64-a",
+    "dataset": "REFED",
+    "backbone": "CBraMod",
+    "target": "valence",
+    "label_index": 0,
+    "num_t": 1,
+    "num_channels": 166,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(5)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "refed_labram_arousal": {
+    "recipe": "refed_labram_arousal",
+    "source_folder": "REFED/AdaBrain-Bench-LaBraM11-32-8a",
+    "dataset": "REFED",
+    "backbone": "LaBraM",
+    "target": "arousal",
+    "label_index": 1,
+    "num_t": 1,
+    "num_channels": 166,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(3)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  },
+  "refed_labram_valence": {
+    "recipe": "refed_labram_valence",
+    "source_folder": "REFED/AdaBrain-Bench-LaBraM110-32-8a",
+    "dataset": "REFED",
+    "backbone": "LaBraM",
+    "target": "valence",
+    "label_index": 0,
+    "num_t": 1,
+    "num_channels": 166,
+    "selection_metric": "balanced_accuracy",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_seed_schedule": [
+      "range(3)"
+    ],
+    "source_selection_metric": "balanced_accuracy"
+  }
+}
